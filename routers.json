@@ -1,0 +1,223 @@
+{
+  "code": 200,
+  "data": [
+    {
+    "id":"1",
+    "path": "",
+    "icon": "icon-shujubiaoguanli",
+    "name": "数据表管理",
+    "children": [
+      {
+        "id":"1-1",
+        "path": "/property",
+        "name": "道具列表",
+        "meta": {
+          "title": "道具列表"
+        }
+      }
+      ]
+    },
+    {
+      "id":"2",
+      "path": "",
+      "icon": "icon-jiaoseguanli",
+      "name": "角色指令",
+      "children": [
+        {
+          "id":"2-1",
+          "path": "/rolequery",
+          "name": "角色信息查询",
+          "meta": {
+            "title": "角色信息查询"
+          }
+        },
+        {
+          "id":"2-2",
+          "path": "/forbiddenList",
+          "name": "封号禁言",
+          "meta": {
+            "title": "角色信息查询"
+          }
+        },
+        {
+          "id":"2-3",
+          "path": "/editCoin",
+          "name": "修改角色货币",
+          "meta": {
+            "title": "角色信息查询"
+          }
+        },
+        {
+          "id":"2-4",
+          "path": "/editCoinList",
+          "name": "角色货币修改记录",
+          "meta": {
+            "title": "角色信息查询"
+          }
+        }
+      ]
+    },   
+    {
+      "id":"3",
+      "path": "",
+      "icon": "icon-duanxinyoujianguanli",
+      "name": "邮件管理",
+      "children": [
+        {
+          "id":"3-1",
+          "path": "/userEmail",
+          "name": "玩家邮件",
+          "meta": {
+            "title": "玩家邮件"
+          }
+        },
+        {
+          "id":"3-2",
+          "path": "/serverEmail",
+          "name": "全服邮件",
+          "meta": {
+            "title": "全服邮件"
+          }
+        },
+        {
+          "id":"3-3",
+          "path": "/emailList",
+          "name": "邮件记录",
+          "meta": {
+            "title": "邮件记录"
+          }
+        }
+
+        
+      ]
+    },
+    {
+      "id":"4",
+      "path": "",
+      "icon": "icon-gonggaoguanli",
+      "name": "公告管理",
+      "children": [
+        {
+          "id":"4-1",
+          "path": "/PublishHorse",
+          "name": "发布跑马灯",
+          "meta": {
+            "title": "发布跑马灯"
+          }
+        },
+        {
+          "id":"4-2",
+          "path": "/HorseList",
+          "name": "跑马灯列表",
+          "meta": {
+            "title": "跑马灯列表"
+          }
+        },
+        {
+          "id":"4-3",
+          "path": "/PublishNotice",
+          "name": "发布公告",
+          "meta": {
+            "title": "发布公告"
+          }
+        },
+        {
+          "id":"4-4",
+          "path": "/NoticeList",
+          "name": "公告列表",
+          "meta": {
+            "title": "公告列表"
+          }
+        }
+      ]
+    },
+    {
+      "id":"5",
+      "path": "",
+      "icon": "icon-liushuichaxun",
+      "name": "流水管理",
+      "children": [
+        {
+          "id":"5-1",
+          "path": "/CoinList",
+          "name": "金币流水",
+          "meta": {
+            "title": "金币流水"
+          }
+        },
+        {
+          "id":"5-2",
+          "path": "/DiamondsList",
+          "name": "钻石流水",
+          "meta": {
+            "title": "钻石流水"
+          }
+        }, 
+        {
+          "id":"5-3",
+          "path": "/Crystal",
+          "name": "水晶流水",
+          "meta": {
+            "title": "水晶流水"
+          }
+        },
+        {
+          "id":"5-4",
+          "path": "/propertyList",
+          "name": "道具流水",
+          "meta": {
+            "title": "道具流水"
+          }
+        },
+        {
+          "id":"5-5",
+          "path": "/goodsList",
+          "name": "固定道具流水",
+          "meta": {
+            "title": "固定道具流水"
+          }
+        }  
+      ]
+    },
+    {
+      "id":"6",
+      "path": "",
+      "icon": "icon-jingjibuchang",
+      "name": "发放充值补偿",
+      "children": [
+        {
+          "id":"6-1",
+          "path": "/makeUp",
+          "name": "充值补偿",
+          "meta": {
+            "title": "充值补偿"
+          }
+        },
+        {
+          "id":"6-2",
+          "path": "/makeUpList",
+          "name": "充值补偿记录",
+          "meta": {
+            "title": "充值补偿记录"
+          }
+        }
+      ]
+    },
+    {
+      "id":"7",
+      "path": "",
+      "icon": "icon-windowsfuwuqiguanlishitu-",
+      "name": "权限管理",
+      "children": [
+        {
+          "id":"7-1",
+          "path": "/rolePermission",
+          "name": "角色权限",
+          "meta": {
+            "title": "角色权限"
+          }
+        }
+      ]
+    }
+  ]
+}

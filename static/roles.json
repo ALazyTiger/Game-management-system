@@ -1,0 +1,833 @@
+{
+  "code": 200,
+  "data": [{
+      "key": "admin",
+      "name": "admin",
+      "description": "Super Administrator. Have access to view all pages.",
+      "routes": [
+        {
+        "id":"1",
+        "path": "",
+        "icon": "icon-shujubiaoweihu",
+        "name": "数据表管理",
+        "children": [
+          {
+            "id":"1-1",
+            "path": "/property",
+            "name": "道具列表",
+            "meta": {
+              "title": "道具列表"
+            }
+          }
+          ]
+        },
+        {
+          "id":"2",
+          "path": "",
+          "icon": "icon-yonghujiaoseweihu",
+          "name": "角色指令",
+          "children": [
+            {
+              "id":"2-1",
+              "path": "/rolequery",
+              "name": "角色信息查询",
+              "meta": {
+                "title": "角色信息查询"
+              }
+            },
+            {
+              "id":"2-2",
+              "path": "/forbiddenList",
+              "name": "封号禁言",
+              "meta": {
+                "title": "角色信息查询"
+              }
+            },
+            {
+              "id":"2-3",
+              "path": "/editCoin",
+              "name": "修改角色货币",
+              "meta": {
+                "title": "角色信息查询"
+              }
+            },
+            {
+              "id":"2-4",
+              "path": "/editCoinList",
+              "name": "角色货币修改记录",
+              "meta": {
+                "title": "角色信息查询"
+              }
+            }
+          ]
+        },   
+        {
+          "id":"3",
+          "path": "",
+          "icon": "icon-youjianguanli",
+          "name": "邮件管理",
+          "children": [
+            {
+              "id":"3-1",
+              "path": "/userEmail",
+              "name": "玩家邮件",
+              "meta": {
+                "title": "玩家邮件"
+              }
+            },
+            {
+              "id":"3-2",
+              "path": "/serverEmail",
+              "name": "全服邮件",
+              "meta": {
+                "title": "全服邮件"
+              }
+            },
+            {
+              "id":"3-3",
+              "path": "/emailList",
+              "name": "邮件记录",
+              "meta": {
+                "title": "邮件记录"
+              }
+            }
+
+            
+          ]
+        },
+        {
+          "id":"4",
+          "path": "",
+          "icon": "icon-gonggaoguanli",
+          "name": "公告管理",
+          "children": [
+            {
+              "id":"4-1",
+              "path": "/PublishHorse",
+              "name": "发布跑马灯",
+              "meta": {
+                "title": "发布跑马灯"
+              }
+            },
+            {
+              "id":"4-2",
+              "path": "/HorseList",
+              "name": "跑马灯列表",
+              "meta": {
+                "title": "跑马灯列表"
+              }
+            },
+            {
+              "id":"4-3",
+              "path": "/PublishNotice",
+              "name": "发布公告",
+              "meta": {
+                "title": "发布公告"
+              }
+            },
+            {
+              "id":"4-4",
+              "path": "/NoticeList",
+              "name": "公告列表",
+              "meta": {
+                "title": "公告列表"
+              }
+            }
+          ]
+        },
+        {
+          "id":"5",
+          "path": "",
+          "icon": "icon-liushuizhangguanli-",
+          "name": "流水管理",
+          "children": [
+            {
+              "id":"5-1",
+              "path": "/CoinList",
+              "name": "金币流水",
+              "meta": {
+                "title": "金币流水"
+              }
+            },
+            {
+              "id":"5-2",
+              "path": "/DiamondsList",
+              "name": "钻石流水",
+              "meta": {
+                "title": "钻石流水"
+              }
+            }, 
+            {
+              "id":"5-3",
+              "path": "/Crystal",
+              "name": "水晶流水",
+              "meta": {
+                "title": "水晶流水"
+              }
+            },
+            {
+              "id":"5-4",
+              "path": "/propertyList",
+              "name": "道具流水",
+              "meta": {
+                "title": "道具流水"
+              }
+            },
+            {
+              "id":"5-5",
+              "path": "/goodsList",
+              "name": "固定道具流水",
+              "meta": {
+                "title": "固定道具流水"
+              }
+            }  
+          ]
+        },
+        {
+          "id":"6",
+          "path": "",
+          "icon": "icon-chongzhi",
+          "name": "发放充值补偿",
+          "children": [
+            {
+              "id":"6-1",
+              "path": "/makeUp",
+              "name": "充值补偿",
+              "meta": {
+                "title": "充值补偿"
+              }
+            },
+            {
+              "id":"6-2",
+              "path": "/makeUpList",
+              "name": "充值补偿记录",
+              "meta": {
+                "title": "充值补偿记录"
+              }
+            }
+          ]
+        },
+        {
+          "id":"7",
+          "path": "",
+          "icon": "icon-quanxianguanli",
+          "name": "权限管理",
+          "children": [
+            {
+              "id":"7-1",
+              "path": "/rolePermission",
+              "name": "角色权限",
+              "meta": {
+                "title": "角色权限"
+              }
+            }
+          ]
+        },
+        {
+          "id":"8",
+          "path": "",
+          "icon": "icon-quanxianguanli",
+          "name": "综合数据",
+          "children": [
+            {
+              "id":"8-1",
+              "path": "/overview",
+              "name": "数据总览",
+              "meta": {
+                "title": "数据总览"
+              }
+            },
+            {
+              "id":"8-2",
+              "path": "/realTime",
+              "name": "实时数据",
+              "meta": {
+                "title": "实时数据"
+              }
+            },
+            {
+              "id":"8-3",
+              "path": "/daily",
+              "name": "日报",
+              "meta": {
+                "title": "日报"
+              }
+            },
+            {
+              "id":"8-4",
+              "path": "/separate",
+              "name": "分服数据",
+              "meta": {
+                "title": "分服数据"
+              }
+            },
+            {
+              "id":"8-5",
+              "path": "/terminal",
+              "name": "终端统计",
+              "meta": {
+                "title": "终端统计"
+              }
+            }
+            
+          ]
+        },
+        {
+          "id":"9",
+          "path": "",
+          "icon": "icon-quanxianguanli",
+          "name": "新增活跃",
+          "children": [
+            {
+              "id":"9-1",
+              "path": "/increase",
+              "name": "滚服新增",
+              "meta": {
+                "title": "滚服新增"
+              }
+            },
+            {
+              "id":"9-2",
+              "path": "/lively",
+              "name": "活跃数据",
+              "meta": {
+                "title": "活跃数据"
+              }
+            },
+            {
+              "id":"9-3",
+              "path": "/scatter",
+              "name": "活跃用户等级分布",
+              "meta": {
+                "title": "活跃用户等级分布"
+              }
+            },
+            {
+              "id":"9-4",
+              "path": "/interval",
+              "name": "活跃时段分布",
+              "meta": {
+                "title": "活跃时段分布"
+              }
+            }
+          ]
+        },
+        {
+          "id":"10",
+          "path": "",
+          "icon": "icon-quanxianguanli",
+          "name": "流失分析",
+          "children": [
+            {
+              "id":"10-1",
+              "path": "/dailyLoss",
+              "name": "每日流失",
+              "meta": {
+                "title": "每日流失"
+              }
+            },
+            {
+              "id":"10-2",
+              "path": "/lossAnalysis",
+              "name": "流失等级分析",
+              "meta": {
+                "title": "流失等级分析"
+              }
+            },
+            {
+              "id":"10-3",
+              "path": "/paymentLoss",
+              "name": "流失付费分析",
+              "meta": {
+                "title": "流失付费分析"
+              }
+            }
+          ]
+        },
+        {
+          "id":"11",
+          "path": "",
+          "icon": "icon-quanxianguanli",
+          "name": "付费价值",
+          "children": [
+            {
+              "id":"11-1",
+              "path": "/tracking",
+              "name": "付费用户追踪",
+              "meta": {
+                "title": "付费用户追踪"
+              }
+            },
+            {
+              "id":"11-2",
+              "path": "/payment",
+              "name": "单笔付费分析",
+              "meta": {
+                "title": "单笔付费分析"
+              }
+            },
+            {
+              "id":"11-3",
+              "path": "/preferences",
+              "name": "付费购买喜好",
+              "meta": {
+                "title": "付费购买喜好"
+              }
+            },
+            {
+              "id":"11-4",
+              "path": "/incomeRatio",
+              "name": "注收比",
+              "meta": {
+                "title": "注收比"
+              }
+            },
+            {
+              "id":"11-5",
+              "path": "/worth",
+              "name": "用户生命周期价值",
+              "meta": {
+                "title": "用户生命周期价值"
+              }
+            },
+            {
+              "id":"11-6",
+              "path": "/whale",
+              "name": "鲸鱼用户（Top100）",
+              "meta": {
+                "title": "鲸鱼用户（Top100）"
+              }
+            },
+            {
+              "id":"11-7",
+              "path": "/realIncome",
+              "name": "实时收入",
+              "meta": {
+                "title": "实时收入"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "editor",
+      "name": "editor",
+      "description": "Normal Editor. Can see all pages except permission page",
+      "routes": [
+        {
+        "id":"1",
+        "path": "",
+        "icon": "icon-shujubiaoweihu",
+        "name": "数据表管理",
+        "children": [
+          {
+            "id":"1-1",
+            "path": "/property",
+            "name": "道具列表",
+            "meta": {
+              "title": "道具列表"
+            }
+          }
+          ]
+        },
+        {
+          "id":"2",
+          "path": "",
+          "icon": "icon-yonghujiaoseweihu",
+          "name": "角色指令",
+          "children": [
+            {
+              "id":"2-1",
+              "path": "/rolequery",
+              "name": "角色信息查询",
+              "meta": {
+                "title": "角色信息查询"
+              }
+            },
+            {
+              "id":"2-2",
+              "path": "/forbiddenList",
+              "name": "封号禁言",
+              "meta": {
+                "title": "角色信息查询"
+              }
+            },
+            {
+              "id":"2-3",
+              "path": "/editCoin",
+              "name": "修改角色货币",
+              "meta": {
+                "title": "角色信息查询"
+              }
+            },
+            {
+              "id":"2-4",
+              "path": "/editCoinList",
+              "name": "角色货币修改记录",
+              "meta": {
+                "title": "角色信息查询"
+              }
+            }
+          ]
+        },   
+        {
+          "id":"3",
+          "path": "",
+          "icon": "icon-youjianguanli",
+          "name": "邮件管理",
+          "children": [
+            {
+              "id":"3-1",
+              "path": "/userEmail",
+              "name": "玩家邮件",
+              "meta": {
+                "title": "玩家邮件"
+              }
+            },
+            {
+              "id":"3-2",
+              "path": "/serverEmail",
+              "name": "全服邮件",
+              "meta": {
+                "title": "全服邮件"
+              }
+            },
+            {
+              "id":"3-3",
+              "path": "/emailList",
+              "name": "邮件记录",
+              "meta": {
+                "title": "邮件记录"
+              }
+            }
+
+            
+          ]
+        },
+        {
+          "id":"4",
+          "path": "",
+          "icon": "icon-gonggaoguanli",
+          "name": "公告管理",
+          "children": [
+            {
+              "id":"4-1",
+              "path": "/PublishHorse",
+              "name": "发布跑马灯",
+              "meta": {
+                "title": "发布跑马灯"
+              }
+            },
+            {
+              "id":"4-2",
+              "path": "/HorseList",
+              "name": "跑马灯列表",
+              "meta": {
+                "title": "跑马灯列表"
+              }
+            },
+            {
+              "id":"4-3",
+              "path": "/PublishNotice",
+              "name": "发布公告",
+              "meta": {
+                "title": "发布公告"
+              }
+            },
+            {
+              "id":"4-4",
+              "path": "/NoticeList",
+              "name": "公告列表",
+              "meta": {
+                "title": "公告列表"
+              }
+            }
+          ]
+        },
+        {
+          "id":"5",
+          "path": "",
+          "icon": "icon-liushuizhangguanli-",
+          "name": "流水管理",
+          "children": [
+            {
+              "id":"5-1",
+              "path": "/CoinList",
+              "name": "金币流水",
+              "meta": {
+                "title": "金币流水"
+              }
+            },
+            {
+              "id":"5-2",
+              "path": "/DiamondsList",
+              "name": "钻石流水",
+              "meta": {
+                "title": "钻石流水"
+              }
+            }, 
+            {
+              "id":"5-3",
+              "path": "/Crystal",
+              "name": "水晶流水",
+              "meta": {
+                "title": "水晶流水"
+              }
+            },
+            {
+              "id":"5-4",
+              "path": "/propertyList",
+              "name": "道具流水",
+              "meta": {
+                "title": "道具流水"
+              }
+            },
+            {
+              "id":"5-5",
+              "path": "/goodsList",
+              "name": "固定道具流水",
+              "meta": {
+                "title": "固定道具流水"
+              }
+            }  
+          ]
+        },
+        {
+          "id":"6",
+          "path": "",
+          "icon": "icon-chongzhi",
+          "name": "发放充值补偿",
+          "children": [
+            {
+              "id":"6-1",
+              "path": "/makeUp",
+              "name": "充值补偿",
+              "meta": {
+                "title": "充值补偿"
+              }
+            },
+            {
+              "id":"6-2",
+              "path": "/makeUpList",
+              "name": "充值补偿记录",
+              "meta": {
+                "title": "充值补偿记录"
+              }
+            }
+          ]
+        }
+      
+      ]
+    },
+    {
+      "key": "visitor",
+      "name": "visitor",
+      "description": "Just a visitor. Can only see the home page and the document page",
+      "routes": [
+        {
+        "id":"1",
+        "path": "",
+        "icon": "icon-shujubiaoweihu",
+        "name": "数据表管理",
+        "children": [
+          {
+            "id":"1-1",
+            "path": "/property",
+            "name": "道具列表",
+            "meta": {
+              "title": "道具列表"
+            }
+          }
+          ]
+        },
+        {
+          "id":"2",
+          "path": "",
+          "icon": "icon-yonghujiaoseweihu",
+          "name": "角色指令",
+          "children": [
+            {
+              "id":"2-1",
+              "path": "/rolequery",
+              "name": "角色信息查询",
+              "meta": {
+                "title": "角色信息查询"
+              }
+            },
+            {
+              "id":"2-2",
+              "path": "/forbiddenList",
+              "name": "封号禁言",
+              "meta": {
+                "title": "角色信息查询"
+              }
+            },
+            {
+              "id":"2-3",
+              "path": "/editCoin",
+              "name": "修改角色货币",
+              "meta": {
+                "title": "角色信息查询"
+              }
+            },
+            {
+              "id":"2-4",
+              "path": "/editCoinList",
+              "name": "角色货币修改记录",
+              "meta": {
+                "title": "角色信息查询"
+              }
+            }
+          ]
+        },   
+        {
+          "id":"3",
+          "path": "",
+          "icon": "icon-youjianguanli",
+          "name": "邮件管理",
+          "children": [
+            {
+              "id":"3-1",
+              "path": "/userEmail",
+              "name": "玩家邮件",
+              "meta": {
+                "title": "玩家邮件"
+              }
+            },
+            {
+              "id":"3-2",
+              "path": "/serverEmail",
+              "name": "全服邮件",
+              "meta": {
+                "title": "全服邮件"
+              }
+            },
+            {
+              "id":"3-3",
+              "path": "/emailList",
+              "name": "邮件记录",
+              "meta": {
+                "title": "邮件记录"
+              }
+            }
+
+            
+          ]
+        },
+        {
+          "id":"4",
+          "path": "",
+          "icon": "icon-gonggaoguanli",
+          "name": "公告管理",
+          "children": [
+            {
+              "id":"4-1",
+              "path": "/PublishHorse",
+              "name": "发布跑马灯",
+              "meta": {
+                "title": "发布跑马灯"
+              }
+            },
+            {
+              "id":"4-2",
+              "path": "/HorseList",
+              "name": "跑马灯列表",
+              "meta": {
+                "title": "跑马灯列表"
+              }
+            },
+            {
+              "id":"4-3",
+              "path": "/PublishNotice",
+              "name": "发布公告",
+              "meta": {
+                "title": "发布公告"
+              }
+            },
+            {
+              "id":"4-4",
+              "path": "/NoticeList",
+              "name": "公告列表",
+              "meta": {
+                "title": "公告列表"
+              }
+            }
+          ]
+        },
+        {
+          "id":"5",
+          "path": "",
+          "icon": "icon-liushuizhangguanli-",
+          "name": "流水管理",
+          "children": [
+            {
+              "id":"5-1",
+              "path": "/CoinList",
+              "name": "金币流水",
+              "meta": {
+                "title": "金币流水"
+              }
+            },
+            {
+              "id":"5-2",
+              "path": "/DiamondsList",
+              "name": "钻石流水",
+              "meta": {
+                "title": "钻石流水"
+              }
+            }, 
+            {
+              "id":"5-3",
+              "path": "/Crystal",
+              "name": "水晶流水",
+              "meta": {
+                "title": "水晶流水"
+              }
+            },
+            {
+              "id":"5-4",
+              "path": "/propertyList",
+              "name": "道具流水",
+              "meta": {
+                "title": "道具流水"
+              }
+            },
+            {
+              "id":"5-5",
+              "path": "/goodsList",
+              "name": "固定道具流水",
+              "meta": {
+                "title": "固定道具流水"
+              }
+            }  
+          ]
+        },
+        {
+          "id":"6",
+          "path": "",
+          "icon": "icon-chongzhi",
+          "name": "发放充值补偿",
+          "children": [
+            {
+              "id":"6-1",
+              "path": "/makeUp",
+              "name": "充值补偿",
+              "meta": {
+                "title": "充值补偿"
+              }
+            },
+            {
+              "id":"6-2",
+              "path": "/makeUpList",
+              "name": "充值补偿记录",
+              "meta": {
+                "title": "充值补偿记录"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
