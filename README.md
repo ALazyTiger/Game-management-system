@@ -1,7 +1,6 @@
-# axiosfengzhuang
+# 游戏后台管理系统
 
-> A Vue.js project
-
+> 基于Vue + elementUI  模拟带权限的后台管理系统
 ## Build Setup
 
 ``` bash
