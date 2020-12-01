@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import store from './store'
-// import '@/permission' // permission control
+
 Vue.config.productionTip = false
 
 import ElementUI from 'element-ui';
@@ -15,11 +15,12 @@ import "babel-polyfill";
 import locale from 'element-ui/lib/locale/lang/zh-CN'
 
 Vue.use(ElementUI, { locale })
- 
-import 'vue-animate-fullpage/dist/animate.css'
-import VueAnimateFullpage from 'vue-animate-fullpage/dist/index'
 
-Vue.use(VueAnimateFullpage)
+import Directive from './utils/directive'
+Vue.use(Directive)
+
+import XLSX from 'xlsx'
+Vue.use(XLSX)
 
 /* eslint-disable no-new */
 new Vue({
@@ -29,4 +30,16 @@ new Vue({
   // components: { App },
   // template: '<App/>'
   render: h => h(App)
+})
+
+router.beforeEach((to, from, next) => {
+  if (to.meta.requireAuth) {
+    if (store.state.user) {
+      next()
+    } else {
+      next({ path: '/' })
+    }
+  } else {
+    next()
+  }
 })
