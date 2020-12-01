@@ -4,7 +4,7 @@
     <div class="header-right">
       <div class="header-user-con">
         <!-- 全屏显示 -->
-        <div class="btn-fullscreen" @click="handleFullScreen">
+        <div class="btn-fullscreen" @click="handleFullScreen" v-auth:some="[ 'admin','editor','visitor']">
           <el-tooltip effect="dark" :content="fullscreen?`取消全屏`:`全屏`" placement="bottom">
             <i class="el-icon-rank"></i>
           </el-tooltip>
