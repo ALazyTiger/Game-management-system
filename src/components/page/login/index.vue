@@ -74,7 +74,6 @@ export default {
         }
       }
     },
-
     submitForm(formName) {
       this.$refs[formName].validate(valid => {
         if (valid) {
@@ -89,6 +88,12 @@ export default {
                       type:'SetRouters',
                       routers:role.routes
                     })
+                    this.$store.commit({
+                      type:'roles',
+                      routers:role.roles
+                    })
+                    
+                    localStorage.setItem('roles', JSON.stringify(role.roles))
                     localStorage.setItem('routers', JSON.stringify(role.routes))
                     this.$router.push("/Readme");
                   }
